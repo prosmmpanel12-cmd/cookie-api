@@ -1,0 +1,16 @@
+{
+  "name": "notegpt-test-server",
+  "version": "1.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Private Render test server for the NoteGPT image-generation interoperability flow",
+  "scripts": {
+    "start": "node server.js",
+    "generate": "node generate.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {    "node-fetch": "^3.3.2"
+  }
+}
